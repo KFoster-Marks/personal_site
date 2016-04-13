@@ -1,0 +1,166 @@
+/* Shared styles */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;;
+  background-color: #C5CCC8;
+}
+.landing {
+  height:600px;
+  background-color: #344860;
+  background-image: url(https://images.unsplash.com/photo-1418065514041-ace6539f65cf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dd590ddffb4ce7309ccf186cc66d8b1a);
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav_bar {
+    background-color: #103843;
+    height: 65px;
+    width: 100%;
+    text-align: center;
+}
+.nav_bar ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding-right: 70px;
+}
+.nav_bar li {
+    float: left;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+ li a {
+   text-decoration: none;
+   color: white;
+ }
+li a:hover {
+    color: orange;
+}
+#origins, #interests, #goals {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  clear: both;
+}
+article p, article li {
+  text-transform: none;
+}
+#origins, #goals {
+  background-color: #C5CCC8;
+}
+#interests {
+  background-color: #103843;
+  color: white;
+}
+article {
+  width: 25%;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: top;
+}
+.section_img {
+  border: solid 5px white;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+
+  -webkit-filter: grayscale(60%);
+  -moz-filter: grayscale(60%);
+  -o-filter: grayscale(60%);
+  -ms-filter: grayscale(60%);
+  filter: grayscale(60%);
+}
+/* Landing Page Style */
+.landing img {
+  border: solid 5px white;
+  -webkit-filter: grayscale(60%);
+  -moz-filter: grayscale(60%);
+  -o-filter: grayscale(60%);
+  -ms-filter: grayscale(60%);
+  filter: grayscale(60%);
+  border-radius: 100px;
+  width: 13%;
+  margin-top: 11%;
+}
+h1 {
+  color: #C5CCC8;
+  font-size: 3.7em;
+  text-align: center;
+  line-height: 10px;
+  text-shadow: 2px 2px black;
+}
+.landing_name {
+  border-bottom: solid 1px white;
+}
+.landing p {
+  color: white;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 10px;
+  text-shadow: 1px 1px black;
+  padding-top: 15px;
+  text-transform: none;
+}
+#intro_text {
+  font-size: 1em;
+  margin-top: 10px;
+  padding-top: 0px;
+}
+#jen {
+  background-image: url(../images/jen.jpg);
+}
+#pikes {
+  background-image: url(../images/pikes.jpg);
+}
+#aaron {
+  background-image: url(../images/oscar.jpg);
+}
+#outside {
+  background-image: url(../images/outside.jpg);
+}
+#sports {
+  background-image: url(../images/pong.jpg);
+}
+#learning {
+  background-image: url(../images/learn.jpg);
+}
+footer p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Secondary Page Styles */
+#secondary {
+  height: 525px;
+}
+.landing .gif {
+  width: 35%;
+  margin-top: 0px;
+}
+#secondary p {
+  padding-top: 40px;
+  padding-bottom: 0;
+  margin-top: 0px;
+}
+#gschool {
+  background-image: url(../images/computer.jpg);
+}
+#career {
+  background-image: url(../images/career.jpg);
+}
+#life {
+  background-image: url(../images/life.jpg);
+}
+article li {
+  text-align: left;
+}
