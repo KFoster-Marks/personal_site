@@ -1,5 +1,6 @@
   $(document).ready(function() {
     $("h1").addClass("animated pulse");
+    $(".gif").addClass("animated bounceInUp");
   });
 
   $(document).ready(function(){
