@@ -9,32 +9,27 @@ body {
 }
 .landing {
   height:600px;
-  background-color: #344860;
-  background-image: url(https://images.unsplash.com/photo-1418065514041-ace6539f65cf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dd590ddffb4ce7309ccf186cc66d8b1a);
-  background-position: 50% 100%;
+  background: url(https://images.unsplash.com/photo-1418065514041-ace6539f65cf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dd590ddffb4ce7309ccf186cc66d8b1a) bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.nav_bar {
+.nav {
     background-color: #103843;
     height: 65px;
     width: 100%;
-    text-align: center;
 }
-.nav_bar ul {
+.nav ul {
     list-style-type: none;
     overflow: hidden;
     margin-top: 5px;
-    text-align: center;
     position: relative;
     display: inline-block;
     padding-right: 70px;
 }
-.nav_bar li {
+.nav li {
     float: left;
     color: white;
     font-weight: bold;
-    text-align: center;
     padding: 20px 25px;
     text-decoration: none;
 }
@@ -53,9 +48,6 @@ li a:hover {
 article p, article li {
   text-transform: none;
 }
-#origins, #goals {
-  background-color: #C5CCC8;
-}
 #interests {
   background-color: #103843;
   color: white;
@@ -67,14 +59,15 @@ article {
   vertical-align: top;
 }
 .section_img {
-  border: solid 5px white;
-  border-radius: 100px;
   width: 200px;
   height: 200px;
   background-size: cover;
   margin-right: auto;
   margin-left: auto;
-
+}
+.section_img, .landing img {
+  border: solid 5px white;
+  border-radius: 100px;
   -webkit-filter: grayscale(60%);
   -moz-filter: grayscale(60%);
   -o-filter: grayscale(60%);
@@ -83,36 +76,27 @@ article {
 }
 /* Landing Page Style */
 .landing img {
-  border: solid 5px white;
-  -webkit-filter: grayscale(60%);
-  -moz-filter: grayscale(60%);
-  -o-filter: grayscale(60%);
-  -ms-filter: grayscale(60%);
-  filter: grayscale(60%);
-  border-radius: 100px;
   width: 13%;
-  margin-top: 11%;
+  margin-top: 125px;
 }
 h1 {
   color: #C5CCC8;
   font-size: 3.7em;
-  text-align: center;
   line-height: 10px;
   text-shadow: 2px 2px black;
 }
-.landing_name {
+#name {
   border-bottom: solid 1px white;
 }
 .landing p {
   color: white;
-  text-align: center;
   font-size: 1.4em;
   line-height: 10px;
   text-shadow: 2px 2px black;
   padding-top: 15px;
   text-transform: none;
 }
-#intro_text {
+#greeting {
   font-size: 1em;
   margin-top: 10px;
   padding-top: 0px;
