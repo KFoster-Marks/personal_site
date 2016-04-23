@@ -125,7 +125,7 @@ footer p {
 }
 /* Secondary Page Styles */
 #secondary {
-  height: 525px;
+  height: 900px;
 }
 .landing .gif {
   width: 35%;
@@ -135,6 +135,12 @@ footer p {
   padding-top: 40px;
   padding-bottom: 0;
   margin-top: 0px;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+#secondary span {
+  color: white;
+  text-shadow: 2px 2px black;
 }
 #gschool {
   background-image: url(../images/computer.jpg);
@@ -147,4 +153,7 @@ footer p {
 }
 article li {
   text-align: left;
+}
+#secondary_nav ul {
+  margin: 0px;
 }

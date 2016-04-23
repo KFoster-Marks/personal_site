@@ -1,8 +1,11 @@
   $(document).ready(function() {
     $("h1").addClass("animated pulse");
-    $(".gif").addClass("animated bounceInUp");
+    $("#secondary").addClass("animated bounceInUp");
   });
 
+
+//I can explain the below code, but wouldn't be able to reproduce it
+/*
   $(document).ready(function(){
   	$('a[href^="#"]').on('click',function (e) {
   	    e.preventDefault();
@@ -24,3 +27,4 @@
   	    });
   	});
   });
+*/
