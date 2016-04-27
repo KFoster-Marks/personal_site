@@ -1,7 +1,7 @@
 /* Shared styles */
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-align: center;;
@@ -99,7 +99,7 @@ h1 {
 #greeting {
   font-size: 1em;
   margin-top: 10px;
-  padding-top: 0px;
+  padding-top: 0;
 }
 #jen {
   background-image: url(../images/jen.jpg);
@@ -120,8 +120,22 @@ h1 {
   background-image: url(../images/learn.jpg);
 }
 footer p {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+button {
+    background-color: #103843;
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    border: solid 1px #103843;
+    border-radius: 4px;
+    text-align: center;
+}
+#contact p {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 /* Secondary Page Styles */
 #secondary {
@@ -129,12 +143,12 @@ footer p {
 }
 .landing .gif {
   width: 35%;
-  margin-top: 0px;
+  margin-top: 0;
 }
 #secondary p {
   padding-top: 40px;
   padding-bottom: 0;
-  margin-top: 0px;
+  margin-top: 0;
   color: black;
   text-shadow: 1px 1px white;
 }
@@ -155,5 +169,5 @@ article li {
   text-align: left;
 }
 #secondary_nav ul {
-  margin: 0px;
+  margin: 0;
 }
