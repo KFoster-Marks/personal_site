@@ -1,15 +1,12 @@
   $(document).ready(function() {
-    //following utilizes css.animate--not my own custom styles
-    /*$("h1").addClass("animated pulse");
-    $("#secondary").addClass("animated bounceInUp");*/
+    $("h1").addClass("animated pulse");
+    $("#secondary").addClass("animated bounceInUp");
     $("#btn").click(function() {
       $("#contact").append("719-231-5757 | kristenlfoster@gmail.com");
     })
   });
 
 
-//I can explain the below code, but wouldn't be able to reproduce it
-/*
   $(document).ready(function(){
   	$('a[href^="#"]').on('click',function (e) {
   	    e.preventDefault();
@@ -31,4 +28,3 @@
   	    });
   	});
   });
-*/
